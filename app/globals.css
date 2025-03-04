@@ -3,14 +3,57 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+@theme {
+  /* custom color palette */
+  --color-blue-500: #191E39;
+  --color-blue-300: #6678E2; 
+  --color-blue-100: #ECEFFB;
+
+
+  /* typography */
+  --text-h1: 5.61rem;
+  --text-h1--line-height: 6rem;
+
+  --text-h2: 4.209rem;
+  --text-h2--line-height: 4.5rem;
+
+  --text-h3: 3.157rem;
+  --text-h3--line-height: 4.5rem;
+
+  --text-h4: 2.369rem;
+  --text-h4--line-height: 3rem;
+
+  --text-h5: 1.777rem;
+  --text-h5--line-height: 3rem;
+
+  --text-h6: 1.333rem;
+  --text-h6--line-height: 1.5rem;
+
+  --text-button: 1.333rem;
+  --text-button--line-height: 3rem; 
+
+  --text-base: 1rem;
+  --text-base--line-height: 1.5rem;
+
+  --text-small: 0.75rem;
+  --text-small--line-height: 1.5rem;
+
+
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --spacing-1: 1.5rem;
+  --spacing-2: 3rem;
+  --spacing-3: 4.5rem;
+  --spacing-4: 6rem;
+} 
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -20,7 +63,5 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+
 }
