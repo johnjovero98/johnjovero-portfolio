@@ -1,9 +1,10 @@
 import Image from "next/image";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div>
-      <h1>John Jovero Portfolio</h1>
-    </div>
+    <>
+      <Header />
+    </>
   );
 }
