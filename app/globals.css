@@ -62,33 +62,40 @@
   }
 }
 
+
 /* __________ Header Styles __________ */
+.cta-button {
+  @apply inline-block leading-[3rem] px-1 border border-blue-300 rounded-lg font-extrabold bg-blue-300 text-white text-center; 
+  @apply hover:bg-white hover:text-blue-300
+}
+
+
+/* __________ Header Styles __________ */
+
 header a {
   @apply inline-block font-bold;
 }
 
 
-
-/* __________ Header Styles __________ */
-.mobile-menu-navigation {
-  @apply absolute w-full bg-blue-100;
+header .mobile-menu-navigation {
+  @apply absolute w-full bg-white shadow-xl;
   @apply top-full left-0;
 
 }
 
-.mobile-menu-navigation {
+header .mobile-menu-navigation {
   max-height: 0px;
   overflow: hidden;
   transition: max-height 0.3s ease-out;
 }
 
-.mobile-menu-navigation.open {
+header .mobile-menu-navigation.open {
   max-height: 500px;
 
 }
 
 
-.mobile-menu-navigation > .menu-links li {
+header .mobile-menu-navigation>.menu-links li {
   @apply px-1
 }
 
@@ -98,23 +105,24 @@ header a {
   @apply md:flex md:justify-between md:items-center md:gap-1;
 }
 
-svg .line1,
-svg .line2,
-svg .line3 {
+header svg .line1,
+header svg .line2,
+header svg .line3 {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-svg.open .line1 {
+header svg.open .line1 {
   transform: translateY(0px) translateX(7px) rotate(45deg);
-
-
 }
 
-svg.open .line2 {
+header svg.open .line2 {
   opacity: 0;
 }
 
-svg.open .line3 {
+header svg.open .line3 {
   transform: translateY(9px) translateX(-10px) rotate(-45deg);
 
 }
+
+
+/* __________ Hero Banner Styles__________ */
