@@ -65,8 +65,8 @@
 
 /* __________ Header Styles __________ */
 .cta-button {
-  @apply inline-block leading-[3rem] px-1 border border-blue-300 rounded-lg font-extrabold bg-blue-300 text-white text-center; 
-  @apply hover:bg-white hover:text-blue-300
+  @apply inline-block leading-[3rem] px-1 border border-blue-300 rounded-lg font-extrabold bg-blue-300 text-white text-center shadow-xl; 
+  @apply hover:bg-white hover:text-blue-300;
 }
 
 
@@ -74,6 +74,7 @@
 
 header a {
   @apply inline-block font-bold;
+  @apply hover:underline hover:text-blue-300;
 }
 
 
@@ -125,4 +126,11 @@ header svg.open .line3 {
 }
 
 
-/* __________ Hero Banner Styles__________ */
+
+
+/* Project Card Styles */
+.project-list-card {
+  @apply  hover:text-blue-300;
+}
+
+
