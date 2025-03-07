@@ -3,7 +3,7 @@ import "./globals.css";
 
 const nunito = Nunito({
   subsets: ["latin"],
-  weight: ["300","400", "700","800"], // Adjust weights as needed
+  weight: ["300", "400", "700", "800"], // Adjust weights as needed
 });
 
 
@@ -14,13 +14,13 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body
-        className={nunito.className}
-      >
-        {children}
-      </body>
-    </html>
-  );  
-}
+    return (
+      <html lang="en">
+        <body
+          className={nunito.className}
+        >
+          {children}
+        </body>
+      </html>
+    );
+  }

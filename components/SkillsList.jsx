@@ -13,9 +13,7 @@ export default function SkillsList() {
                     alt="monitor icon"
                     className="skill-icon-img"
                 />
-
             </div>
-
             <div>
                 <h3>Frontend</h3>
                 <h4>The Fundamentals:</h4>
@@ -157,7 +155,7 @@ export default function SkillsList() {
                 <h4>Additional:</h4>
                 <ul>
                     <li>"Proficient" in Excel</li>
-                    <li>Chocolate cookie enthusiast</li>
+                    <li>Chocolate chip cookie enthusiast</li>
                 </ul>
             </div>
         </div>

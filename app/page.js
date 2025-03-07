@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import HeroBanner from "@/components/HeroBannner";
 import ProjectList from "@/components/ProjectList";
 import SkillsList from "@/components/SkillsList";
+import AnimatedBackground from "@/components/AnimatedBackground";
 
 export default function Home() {
   return (
@@ -28,10 +29,12 @@ export default function Home() {
         </section>
 
 
-        <section className="mb-4">
+        <section className="mb-4 relative inset-shadow-sm">
+          <AnimatedBackground />
 
-          <div className="container mx-auto px-1">
-            <h2 className="font-black  text-h4 md:text-h3 mb-1 text-blue-300">Technical Skills</h2>
+
+          <div className="container mx-auto px-1 py-2">
+            <h2 className="font-black  text-h4 md:text-h3 mb-2 text-blue-300">Technical Skills</h2>
             <SkillsList />
           </div>
         </section>
