@@ -5,6 +5,7 @@ import { PROJECT_LIST } from "@/constants/ProjectList";
 import Header from "@/components/Header";
 import HeroBanner from "@/components/HeroBannner";
 import ProjectList from "@/components/ProjectList";
+import SkillsList from "@/components/SkillsList";
 
 export default function Home() {
   return (
@@ -16,10 +17,10 @@ export default function Home() {
           <HeroBanner />
         </div>
 
-        <section className="mb-4">
+        <section className="mb-4 scroll-m-1" id="projects">
           <div className="container mx-auto px-1">
 
-            <h2 className="font-black  text-h5 md:text-h3 mb-1 text-blue-300">Web Development Projects</h2>
+            <h2 className="font-black  text-h4 md:text-h3 mb-1 text-blue-300">Projects</h2>
             <ProjectList ProjectList={PROJECT_LIST} />
           </div>
 
@@ -28,7 +29,11 @@ export default function Home() {
 
 
         <section className="mb-4">
-          Technical Skills
+
+          <div className="container mx-auto px-1">
+            <h2 className="font-black  text-h4 md:text-h3 mb-1 text-blue-300">Technical Skills</h2>
+            <SkillsList />
+          </div>
         </section>
 
         <section className="mb-4">

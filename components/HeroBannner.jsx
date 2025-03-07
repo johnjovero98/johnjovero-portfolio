@@ -20,7 +20,7 @@ export default function HeroBanner() {
 
             {/* CTA */}
             <div className="flex flex-col md:flex-row gap-1">
-                <a href="#projects" className="cta-button">Checkout my works</a>
+                <a href="#projects" className="cta-button">Check out my works</a>
                 <a href="/about" className="cta-button">Get to know me</a>
             </div>
         </div>

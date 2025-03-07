@@ -134,3 +134,34 @@ header svg.open .line3 {
 }
 
 
+
+
+/* Skills Styles */
+
+.skills h3 {
+  @apply font-extrabold text-h5 text-blue-300;
+}
+
+.skills h4 {
+  @apply text-h6 font-bold;
+}
+
+.skills ul {
+  @apply pl-1 mb-1;
+}
+
+.skills ul li {
+  @apply list-disc
+}
+
+.skills p {
+  @apply mb-1 italic
+}
+
+.skills .skills-card {
+  @apply flex;
+}
+
+.skills .skills-card-icon {
+  @apply w-1/4
+}
