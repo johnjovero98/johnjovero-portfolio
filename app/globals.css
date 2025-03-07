@@ -165,3 +165,7 @@ header svg.open .line3 {
 .skills .skills-card-icon {
   @apply w-1/4
 }
+
+.skill-icon-img {
+  @apply p-[10px];
+} 

@@ -11,7 +11,7 @@ export default function SkillsList() {
                     width={100}
                     height={100}
                     alt="monitor icon"
-                    className="w-full p-[15px]"
+                    className="skill-icon-img"
                 />
 
             </div>
@@ -55,7 +55,7 @@ export default function SkillsList() {
                     width={120}
                     height={120}
                     alt="monitor icon"
-                    className="w-full p-[15px]"
+                    className="skill-icon-img"
                 />
 
             </div>
@@ -95,10 +95,10 @@ export default function SkillsList() {
                     width={120}
                     height={120}
                     alt="monitor icon"
-                    className="w-full p-[15px]"
+                    className="skill-icon-img"
                 />
 
-            </div>
+            </div> 
 
 
             <div>
@@ -133,7 +133,7 @@ export default function SkillsList() {
                     width={120}
                     height={120}
                     alt="monitor icon"
-                    className="w-full p-[15px]"
+                    className="skill-icon-img"
                 />
 
             </div>
