@@ -2,8 +2,7 @@ import Image from "next/image"
 
 
 export default function HeroBanner() {
-    return <div className="flex flex-col lg:flex-row gap-1 px-1 py-2  container mx-auto">
-
+    return <div className="flex flex-col lg:flex-row gap-1 px-1 py-3  container mx-auto">
 
         <div className=" lg:w-[70%]">
             {/* Introduction */}

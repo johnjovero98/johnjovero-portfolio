@@ -14,7 +14,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <div className="mb-4 bg-linear-to-b from-blue-100 to-white">
+        <div className="mb-1 bg-linear-to-b from-blue-100 to-white">
           <HeroBanner />
         </div>
 
@@ -24,7 +24,6 @@ export default function Home() {
             <h2 className="font-black  text-h4 md:text-h3 mb-1 text-blue-300">Projects</h2>
             <ProjectList ProjectList={PROJECT_LIST} />
           </div>
-
 
         </section>
 
