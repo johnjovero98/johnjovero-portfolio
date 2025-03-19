@@ -66,7 +66,7 @@ export default function ContactForm() {
                 <input
                     type="email"
                     name="email"
-                    placeholder="Your Email"
+                    placeholder="john@email.com"
                     value={formData.email}
                     onChange={handleChange}
                     required
@@ -78,7 +78,7 @@ export default function ContactForm() {
                 <input
                     type="text"
                     name="subject"
-                    placeholder="Subject"
+                    placeholder="What’s your inquiry about?"
                     value={formData.subject}
                     onChange={handleChange}
                 />
@@ -88,12 +88,14 @@ export default function ContactForm() {
             <fieldset>
                 <legend>Message</legend>
                 <textarea
+                    maxLength={255}
                     name="message"
-                    placeholder="Your Message"
+                    placeholder="Type your message here (max 255 characters)"
                     value={formData.message}
                     onChange={handleChange}
                     required
                 />
+                <span className="text-white text-small float-end">{formData.message.length}/255</span>
             </fieldset>
 
             <button type="submit" className="cta-button " disabled={loading}>

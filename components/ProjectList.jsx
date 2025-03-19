@@ -11,7 +11,7 @@ export default function ProjectList({ ProjectList }) {
             ProjectList.map((project, index) => {
                 return <li key={project.projectSlug} className="project-list-card ">
 
-                    <Link href={`projects/${project.projectSlug}`}>
+                    <Link href={`/${project.projectSlug}`}>
                         <div>
                             <Image
                                 src={`/projects-img/${project.projectFeatImage}`}

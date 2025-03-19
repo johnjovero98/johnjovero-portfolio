@@ -4,6 +4,7 @@ export async function POST(req) {
   try {
     const { name, email, subject, message } = await req.json();
     
+    // invoke Contact Form class and send method
     const contactForm = new ContactForm(name, email, subject, message);
     const response = await contactForm.send();
 
