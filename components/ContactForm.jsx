@@ -9,14 +9,36 @@ export default function ContactForm() {
         subject: '',
         message: '',
     });
-
-
     const [loading, setLoading] = useState(false);
     const [responseMessage, setResponseMessage] = useState('');
 
-
     const handleChange = (e) => {
         setFormData({ ...formData, [e.target.name]: e.target.value });
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setLoading(true);
+
+        try {
+            const res = await fetch('/api/send', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(formData),
+            });
+
+            const result = await res.json();
+            if (result.success) {
+                setResponseMessage('Email sent successfully!');
+                setFormData({ name: '', email: '', subject: '', message: '' });
+            } else {
+                setResponseMessage(`Error: ${result.error}`);
+            }
+        } catch (error) {
+            setResponseMessage('Failed to send message.');
+        } finally {
+            setLoading(false);
+        }
     };
 
 
@@ -24,7 +46,7 @@ export default function ContactForm() {
     console.log(formData)
 
     return <>
-        <form action="#" className="contact-form">
+        <form onSubmit={handleSubmit} className="contact-form">
             <h3 className="text-h5 font-bold mb-1">Contact Form</h3>
 
             <fieldset>
@@ -78,7 +100,7 @@ export default function ContactForm() {
                 {loading ? 'Sending...' : 'Send'}
             </button>
 
-            {responseMessage && <p className="text-center text-sm">{responseMessage}</p>}
+            {responseMessage && <p className="text-center text-sm text-white">{responseMessage}</p>}
 
         </form>
 

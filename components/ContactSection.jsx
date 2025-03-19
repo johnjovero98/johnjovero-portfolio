@@ -9,7 +9,7 @@ export default function ContactSection() {
 
 
             <div className="lg:w-1/2">
-                <h2 className="font-bold mb-1  text-h4 md:text-h3 text-blue-300">Let’s talk about web stuff!</h2>
+                <h2 className="font-bold mb-1  text-h4 md:text-h3 text-blue-300 text-balance">Let’s talk about web stuff!</h2>
                 <p className="mb-1">Fill out the the form provided if you have any inquiries. I’m open always for any exciting opportunities that will foster meaningful collaborations.</p>
                 <ul>
 

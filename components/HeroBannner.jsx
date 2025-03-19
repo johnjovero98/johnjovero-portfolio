@@ -2,9 +2,10 @@ import Image from "next/image"
 
 
 export default function HeroBanner() {
-    return <div className="flex flex-col lg:flex-row gap-1 px-1 py-3  container mx-auto">
+    return <div className="flex flex-col lg:flex-row gap-1 px-1 py-3  items-center container mx-auto">
 
-        <div className=" lg:w-[70%]">
+        {/* introduction */}
+        <div className=" lg:w-[60%]">
             {/* Introduction */}
             <div>
                 <h2 className="text-h6  md:text-h4 font-bold mb-1" >Hello! I'm John</h2>
@@ -24,7 +25,9 @@ export default function HeroBanner() {
             </div>
         </div>
 
-        <div className="lg:w-[30%] ">
+
+        {/* Image */}
+        <div className="lg:w-[40%] ">
             <Image
                 src={"/img/hero-image.png"}
                 alt="John Jovero"
@@ -33,6 +36,7 @@ export default function HeroBanner() {
                 className="lg:w-full"
             />
         </div>
+
 
     </div>
 }
