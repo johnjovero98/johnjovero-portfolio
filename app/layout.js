@@ -1,10 +1,18 @@
 import { Nunito } from "next/font/google";
+import { Montserrat } from "next/font/google";
+
 import "./globals.css";
 
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["300", "400", "700", "800"], // Adjust weights as needed
 });
+
+const montserrat = Montserrat({
+  subsets: ["latin"],
+  weight: ["300", "400", "700", "800"], // Adjust weights as needed
+});
+
 
 
 
@@ -17,7 +25,7 @@ export default function RootLayout({ children }) {
     return (
       <html lang="en">
         <body
-          className={nunito.className}
+          className={montserrat.className}
         >
           {children}
         </body>

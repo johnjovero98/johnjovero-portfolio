@@ -65,7 +65,7 @@
 
 /* __________ Header Styles __________ */
 .cta-button {
-  @apply inline-block leading-[3rem] px-1 border border-blue-300 rounded-lg font-extrabold bg-blue-300 text-white text-center shadow-xl; 
+  @apply inline-block leading-[3rem] px-1 border border-blue-300 rounded-lg font-bold bg-blue-300 text-white text-center shadow-xl;
   @apply hover:bg-white hover:text-blue-300;
 }
 
@@ -92,7 +92,6 @@ header .mobile-menu-navigation {
 
 header .mobile-menu-navigation.open {
   max-height: 500px;
-
 }
 
 
@@ -130,7 +129,7 @@ header svg.open .line3 {
 
 /* Project Card Styles */
 .project-list-card {
-  @apply  hover:text-blue-300;
+  @apply hover:text-blue-300;
 }
 
 
@@ -139,7 +138,7 @@ header svg.open .line3 {
 /* Skills Styles */
 
 .skills h3 {
-  @apply font-extrabold text-h5 text-blue-300;
+  @apply font-bold text-h5 text-blue-300;
 }
 
 .skills h4 {
@@ -168,7 +167,7 @@ header svg.open .line3 {
 
 .skill-icon-img {
   @apply p-[15px] w-full;
-} 
+}
 
 .animated-bg {
   position: absolute;
@@ -178,3 +177,29 @@ header svg.open .line3 {
   height: 100%;
   z-index: -1;
 }
+
+
+/* contact form styles */
+
+.contact-form {
+  @apply bg-blue-500 rounded-lg shadow;
+  @apply lg:w-1/2;
+  @apply  py-1 px-1 lg:py-2 lg:px-2;
+}
+.contact-form fieldset {
+  @apply mb-1
+}
+
+.contact-form input {
+  @apply w-full border rounded-lg h-[60px] p-[1rem] bg-white;
+}
+
+.contact-form textarea {
+  @apply w-full border rounded-lg  p-[1rem] bg-white h-[15rem];
+}
+
+
+.contact-form legend, .contact-form h3 {
+  @apply text-white
+}
+
