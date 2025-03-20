@@ -29,7 +29,7 @@ class ContactForm {
 
         try {
             await this.resend.emails.send({
-                from: 'John Jovero Portfolio <onboarding@resend.dev>', // test domain
+                from: 'John Jovero Portfolio <contact@johnjovero.com>', // test domain
                 to: ['john.jovero@outlook.com'], // send the message on this email
                 subject: this.subject,
                 text: `Sender's Name: ${this.name}\nSender's Email: ${this.email}\n\nMessage:\n${this.message}`,
@@ -42,4 +42,4 @@ class ContactForm {
     }
 }
 
-export { ContactForm };
+export { ContactForm }; 
