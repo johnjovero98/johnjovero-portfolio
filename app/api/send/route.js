@@ -1,4 +1,4 @@
-import { ContactForm } from '@/lib/ContactForm';
+import { ContactForm } from '@/classes/ContactForm';
 
 export async function POST(req) {
   try {
