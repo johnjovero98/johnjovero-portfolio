@@ -1,6 +1,6 @@
 export const PROJECT_LIST = [
     {
-        projectTitle : "Katppy E-Commerce Website",
+        projectTitle : "Katppy E-Commerce Website (Ongoing) ",
         projectFeatImage : "feat-img-katppy.png",
         projectSlug: "katppy-ecommerce-website",
         projectTech: ["Wordpress", "jQuery","PHP","Tailwind CSS"]
