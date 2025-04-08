@@ -216,3 +216,14 @@ header svg.open .line3 {
   height: 100%;
   @apply border-gray-300
 }
+
+
+
+
+.project-description-page .project-content {
+  @apply flex flex-col lg:flex-row gap-2 items-start;
+}
+
+.project-description-page .project-content .project-feat-img-container {
+  @apply lg:sticky lg:top-[10.5rem];
+}

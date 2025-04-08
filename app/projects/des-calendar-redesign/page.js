@@ -23,12 +23,12 @@ export default async function DESCalProjectPage() {
 
         <main className="project-description-page mb-2">
             <section className="container mx-auto px-1">
+
                 <h2 className="text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">DES Calendar UI Redesign</h2>
 
 
-
-                <div className="flex flex-col lg:flex-row items-start gap-2">
-                    <div className="lg:w-[90%] lg:sticky lg:top-[10.5rem]">
+                <div className="project-content">
+                    <div className="project-feat-img-container">
                         <ProjectDetailFeatImg 
                             imgSrc={'/projects-img/project-img-devcal.png'}
                             imgAlt={'Dev Edmonton Calendar Project Feature Image'}
@@ -39,7 +39,7 @@ export default async function DESCalProjectPage() {
 
 
                     {/* project Descriptions */}
-                    <div className="grow-2">
+                    <div className="project-details-section">
                         {/* Task */}
                         <ProjectDetailSection title={"Task"}>
                             <p className="text-balance mb-1">This is the first feature I updated that got into production. By the time I successfully completed this project, I felt confident and sure of myself that I had chosen the right path to become a web developer!</p>
