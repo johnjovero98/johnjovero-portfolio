@@ -71,7 +71,7 @@ export default async function DESCalProjectPage() {
                                 <div className="project-details relative pb-1">
                                     <p className="font-bold text-h6 pt-1" >Major Changes:</p>
                                     <ul className="list-disc pl-1">
-                                        <li>Fix "All day" view</li>
+                                        <li>Fix &quot;All day&quot; view</li>
                                         <li>Fix Overall Layout</li>
                                         <li>Follow design patterns for calendar UI components</li>
                                     </ul>
@@ -115,7 +115,7 @@ export default async function DESCalProjectPage() {
                             <div>
                                 <h3 className="text-h4 font-bold text-blue-300">Results</h3>
                                 <div className="project-details relative pb-1">
-                                    <p className="text-balance pt-1">My revisions got successfully deployed in the production– increasing the event's page visitation rate. I also received some positive feedback on the design and usability.</p>
+                                    <p className="text-balance pt-1">My revisions got successfully deployed in the production– increasing the event&apos;s page visitation rate. I also received some positive feedback on the design and usability.</p>
                                 </div>
                             </div>
                         </section>
