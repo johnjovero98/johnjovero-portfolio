@@ -8,10 +8,10 @@ export default function ProjectList({ ProjectList }) {
     return <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-2 ">
 
         {
-            ProjectList.map((project, index) => {
+            ProjectList.map((project) => {
                 return <li key={project.projectSlug} className="project-list-card ">
 
-                    <Link href={`/${project.projectSlug}`}>
+                    <Link href={`/projects/${project.projectSlug}`}>
                         <div>
                             <Image
                                 src={`/projects-img/${project.projectFeatImage}`}
@@ -29,7 +29,5 @@ export default function ProjectList({ ProjectList }) {
                 </li>
             })
         }
-
-
     </ul>
 }

@@ -185,8 +185,9 @@ header svg.open .line3 {
 .contact-form {
   @apply bg-blue-500 rounded-lg shadow;
   @apply lg:w-1/2;
-  @apply  py-1 px-1 lg:py-2 lg:px-2;
+  @apply py-1 px-1 lg:py-2 lg:px-2;
 }
+
 .contact-form fieldset {
   @apply mb-1
 }
@@ -196,11 +197,22 @@ header svg.open .line3 {
 }
 
 .contact-form textarea {
-  @apply w-full border rounded-lg  p-[1rem] bg-white h-[15rem];
+  @apply w-full border rounded-lg p-[1rem] bg-white h-[15rem];
 }
 
 
-.contact-form legend, .contact-form h3 {
+.contact-form legend,
+.contact-form h3 {
   @apply text-white
 }
 
+
+
+.project-description-page .project-details::before {
+  content: "";
+  border-left: 2px solid;
+  position: absolute;
+  left: -30px;
+  height: 100%;
+  @apply border-gray-300
+}

@@ -23,7 +23,7 @@ export default function Home() {
           <HeroBanner />
         </div>
 
-        <section className="mb-4 scroll-m-1" id="projects">
+        <section className="mb-4 scroll-m-1 scroll-mt-[10.5rem]" id="projects">
           <div className="container mx-auto px-1">
 
             <h2 className="font-bold  text-h4 md:text-h3 mb-1 text-blue-300">Projects</h2>
@@ -44,7 +44,7 @@ export default function Home() {
 
 
         {/* contact section */}
-        <section className="shadow-inner bg-linear-to-b from-blue-white to-blue-100">
+        <section id="contact" className="shadow-inner bg-linear-to-b from-blue-white to-blue-100 scroll-mt-[7.5rem]">
           <div className="container mx-auto px-1 py-2">
             <ContactSection />
           </div>
