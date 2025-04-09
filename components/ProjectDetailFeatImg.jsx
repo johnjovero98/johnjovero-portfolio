@@ -13,7 +13,7 @@ export default function ProjectDetailFeatImg({ imgSrc, imgAlt, projectLink, proj
                 alt={imgAlt}
                 width={2000}
                 height={1181}
-                className="mb-1 lg:max-w-[500px]"
+                className="mb-1 lg:max-w-[400px]"
             />
         </div>
         <div className="technologies">
@@ -21,7 +21,7 @@ export default function ProjectDetailFeatImg({ imgSrc, imgAlt, projectLink, proj
             <ProjectTechList projectTechList={projectData.projectTech} />
 
             <Link href={projectLink} target="_blank" className="cta-button mt-1">
-                Live Link
+                Visit Website
             </Link>
         </div>
 

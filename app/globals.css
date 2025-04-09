@@ -229,12 +229,21 @@ header svg.open .line3 {
 }
 
 
-
-
 .project-description-page .project-content {
   @apply flex flex-col lg:flex-row gap-2 items-start;
 }
 
 .project-description-page .project-content .project-feat-img-container {
   @apply lg:sticky lg:top-[10.5rem];
+}
+.project-description-page p {
+  @apply mb-1;
+}
+
+.project-description-page h4 {
+  @apply text-h6 font-bold  mb-[.5rem];
+}
+
+.project-description-page .project-details  ul {
+  @apply list-disc pl-1 mb-1;
 }
