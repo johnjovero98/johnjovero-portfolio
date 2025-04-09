@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import { PROJECT_LIST } from "@/constants/ProjectList";
 
 
 import Header from "@/components/Header"
+import AnimatedBackground from "@/components/AnimatedBackground";
 import ProjectDetailFeatImg from "@/components/ProjectDetailFeatImg";
 import ProjectDetailSection from "@/components/ProjectDetailSection";
 import Footer from "@/components/Footer"
@@ -16,12 +16,17 @@ export default async function DESCalProjectPage() {
     const project = PROJECT_LIST.find((project) => project.projectSlug === URLslug);
 
     return <>
-        <div className="sticky top-0 bg-white z-20 shadow-lg">
-            <Header />
-        </div>
+
+        <Header />
 
 
         <main className="project-description-page mb-2">
+
+            <div className="hidden md:lg:block">
+                <AnimatedBackground />
+            </div>
+
+
             <section className="container mx-auto px-1">
 
                 <h2 className="text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">DES Calendar UI Redesign</h2>
@@ -29,7 +34,7 @@ export default async function DESCalProjectPage() {
 
                 <div className="project-content">
                     <div className="project-feat-img-container">
-                        <ProjectDetailFeatImg 
+                        <ProjectDetailFeatImg
                             imgSrc={'/projects-img/project-img-devcal.png'}
                             imgAlt={'Dev Edmonton Calendar Project Feature Image'}
                             projectLink={'https://devedmonton.com/calendar'}

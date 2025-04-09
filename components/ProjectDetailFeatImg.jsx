@@ -13,7 +13,7 @@ export default function ProjectDetailFeatImg({ imgSrc, imgAlt, projectLink, proj
                 alt={imgAlt}
                 width={2000}
                 height={1181}
-                className="mb-1 lg:max-w-[400px]"
+                className="mb-1 lg:max-w-[500px]"
             />
         </div>
         <div className="technologies">
