@@ -10,6 +10,11 @@ export const PROJECT_LIST = [
         projectFeatImage : "feat-img-rebel.png",
         projectSlug: "rebel-refinishing-website",
         projectTech: ["React", "NEXT JS", "Tailwind CSS"],
+        projectScreenshots : [
+            "/projects-img/rebel-masonry-gallery.png",
+            "/projects-img/rebel-project-showcase.png",
+            "/projects-img/rebel-testimonials.png"
+        ]
     },
     {
         projectTitle : "DES Calendar UI Redesign",

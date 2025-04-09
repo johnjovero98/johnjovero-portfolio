@@ -3,6 +3,7 @@ import Link from "next/link";
 import { PROJECT_LIST } from "@/constants/ProjectList";
 
 
+
 import Header from "@/components/Header"
 import AnimatedBackground from "@/components/AnimatedBackground";
 import ProjectDetailFeatImg from "@/components/ProjectDetailFeatImg";
@@ -46,12 +47,12 @@ export default async function DESCalProjectPage() {
                     <div className="project-details-section">
                         <ProjectDetailSection title={"Overview"}>
                             <p>Katppy is an online store that specializes in decoden DIY craft supplies such as kawaii resin charms, toy figures, crystal beads, and blind bag toys. </p>
+
                         </ProjectDetailSection>
 
                         <ProjectDetailSection title={"Goals"}>
-
-                            <p>I was assigned, along with other 2 members, to build this website as a capstone project.</p>
                             <p><strong>Role:</strong> Project Leader, Developer </p>
+                            <p>I was assigned, along with other 2 members, to build this website as a capstone project.</p>
                             <p>The goal of the project was to create a custom, visually appealing, and user-friendly WooCommerce store tailored to Katppy’s niche audience such as DIY crafters and collectors.</p>
                             <p>Additionally, our client wants to decrease the service cost of running an online shop, so she decides to switch from Etsy to WooCommerce.</p>
 

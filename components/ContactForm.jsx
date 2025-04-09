@@ -40,11 +40,7 @@ export default function ContactForm() {
             setLoading(false);
         }
     };
-
-
-
-    console.log(formData)
-
+    
     return <>
         <form onSubmit={handleSubmit} className="contact-form">
             <h3 className="text-h5 font-bold mb-1">Contact Form</h3>

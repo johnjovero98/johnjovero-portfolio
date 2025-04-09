@@ -63,17 +63,6 @@
   }
 }
 
-/* __________ Custom Styles __________ */
-.header-bg-glass {
-  background: rgba(255, 255, 255, 0.80);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  @apply shadow
-
-}
-
-
 /* __________ Header Styles __________ */
 .cta-button {
   @apply inline-block leading-[3rem] px-1 border border-blue-300 rounded-lg font-bold bg-blue-300 text-white text-center shadow-xl;
@@ -246,4 +235,14 @@ header svg.open .line3 {
 
 .project-description-page .project-details  ul {
   @apply list-disc pl-1 mb-1;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #6678E2 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #6678E2 !important;
 }

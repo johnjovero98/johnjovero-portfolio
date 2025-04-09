@@ -8,8 +8,7 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="sticky top-0 header-bg-glass z-20 shadow-lg">
-
+        <div className="sticky top-0 z-20 shadow-lg bg-white">
             <header className="relative bg-glass">
                 <div className="container mx-auto px-1">
                     <div className="flex justify-between items-center py-1 gap-1">
