@@ -77,6 +77,30 @@ export default async function DESCalProjectPage() {
                                 <li><strong>Project Showcase Page:</strong> Developed a polaroid cork board style that features before-and-after transformations of client projects.</li>
                                 <li><strong>Masonry Gallery:</strong> Implemented a responsive image gallery with a masonry layout to highlight a variety of project images specific to each service.</li>
                             </ul>
+
+                            <h4>Screenshots:</h4>
+                            <Image
+                                src={"/projects-img/rebel-project-showcase.png"}
+                                alt="rebel refinishing project showcase page"
+                                width={600}
+                                height={600}
+                                className="mb-1"
+                            />
+                            <Image
+                                src={"/projects-img/rebel-masonry-gallery.png"}
+                                alt="rebel refinishing masonry gallery"
+                                width={600}
+                                height={600}
+                                className="mb-1"
+                            />
+                            <Image
+                                src={"/projects-img/rebel-testimonials.png"}
+                                alt="rebel refinishing customer testomonials"
+                                width={600}
+                                height={600}
+                                className="mb-1"
+                            />
+
                         </ProjectDetailSection>
 
                         <ProjectDetailSection title={'Results'}>
