@@ -52,9 +52,9 @@ export default async function DESCalProjectPage() {
 
                         <ProjectDetailSection title={"Goals"}>
                             <p><strong>Role:</strong> Project Leader, Developer </p>
-                            <p>I was assigned, along with other 2 members, to build this website as a capstone project.</p>
+                            <p>I was assigned, along with other 2 members, to build this website as a part of our capstone project under NAIT's Digital Media & I.T. program.</p>
+                            <p>Our client wants to decrease the service cost of running an online shop, so she decides to switch platform— from Etsy to WooCommerce.</p>
                             <p>The goal of the project was to create a custom, visually appealing, and user-friendly WooCommerce store tailored to Katppy’s niche audience such as DIY crafters and collectors.</p>
-                            <p>Additionally, our client wants to decrease the service cost of running an online shop, so she decides to switch from Etsy to WooCommerce.</p>
 
                             <strong>Personal Goal:</strong>
                             <p>My personal goal for this project is to build a thousand-dollar looking e-commerce website to showcase in my portfolio.</p>
@@ -62,8 +62,11 @@ export default async function DESCalProjectPage() {
 
 
                         <ProjectDetailSection title={"Development"}>
-                            <p>My role as a lead developer is to ensure the technical requirement are met, while maintaining best practices. Such actions include developing a custom WordPress theme and WooCommerce features,  integrating third-party services (email, payments, marketing), and making sure all deliverables are finishined in a timely manner.
+                            <p>My role as a lead developer is to ensure the technical requirement are met, while maintaining best practices. Such actions include developing a custom WordPress theme and WooCommerce features and integrating third-party services (email, payments, marketing).
+
                             </p>
+
+                            <p>As the project leader, I make sure all deliverables are finishined in a timely manner.</p>
 
                             <p>I also collaborated with my design team and client to align decisions with Katppy’s brading and aesthetic.</p>
 
@@ -75,20 +78,18 @@ export default async function DESCalProjectPage() {
 
                             <h4>TailwindCSS Integration</h4>
                             <ul>
-                                <li>Integrated TailwindCSS into the WordPress theme to rapidly build a clean and modern-looking UI.</li>
-                                <li>Combined Tailwind with WooCommerce templates for a cohesive and fully responsive shopping experience.</li>
+                                <li>Utilized TailwindCSS into the WordPress theme to rapidly build a clean and modern-looking user interfaces</li>
                             </ul>
 
                             <h4>WooCommerce Customization</h4>
                             <ul>
-                                <li>Integrated Swiper.js to create a dynamic product image gallery with a zoom modal on click.</li>
                                 <li>Implemented AJAX filter and search bar to improve online shopping experience</li>
                             </ul>
 
                             <h4>Mailchimp Integration</h4>
                             <ul>
-                                <li>Integrated Mailchimp for email marketing and customer retention.</li>
-                                <li>Prepared for future campaigns like welcome emails, new arrivals, and seasonal promos to keep the community engaged.</li>
+                                <li>Integrated Mailchimp for email marketing and customer retention</li>
+                                <li>Prepared for future campaigns like welcome emails, new arrivals, and seasonal promos to keep the community engaged</li>
                             </ul>
 
                             <h4>Stripe Integration</h4>
@@ -99,16 +100,15 @@ export default async function DESCalProjectPage() {
 
                             <h4>Gmail SMTP Integration</h4>
                             <ul>
-                                <li>Configured Gmail SMTP for reliable and secure transactional email delivery.</li>
-                                <li>Ensures that contact form messages land in the inbox (not spam), supporting seamless customer communication.</li>
+                                <li>Configured Gmail SMTP for reliable and secure transactional email delivery</li>
+                                <li>Ensured that contact form messages land in the inbox (not spam), supporting seamless customer communication</li>
                             </ul>
                         </ProjectDetailSection>
 
 
 
                         <ProjectDetailSection title={"Preview"}>
-
-                            <p>The shop is not live in public since we&apos;re still testing and migrating some products, so here is a demo video of it.</p>
+                            <p>The shop is not live in public since we&apos;re still testing and migrating some products, so here's some screenshot of it.</p>
 
                             <h4>Shop page preview:</h4>
                             <div className="mb-1 border border-solid border-gray-100 shadow-lg rounded-lg w-fit">
@@ -156,8 +156,11 @@ export default async function DESCalProjectPage() {
                         </ProjectDetailSection>
 
                         <ProjectDetailSection title={"Results"}>
-                            Successfully migrating the content into production.
-                            Established a solid e-commerce foundation for the business to grow and scale product offerings.
+                            <p>Our team are currently migrating the rest of the content into the production website:
+                                <Link className="text-blue-300 hover:underline" target="_blank" href={`https://katppy.com/`}> www.katppy.com</Link>.
+                            </p>
+
+                            <p>By building this website, we established a solid e-commerce foundation for the business to grow and scale product offerings. The shop also creates a personalized shopping experience for Katppy's customer.</p>
                         </ProjectDetailSection>
                     </div>
                 </div>

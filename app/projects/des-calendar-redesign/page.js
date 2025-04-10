@@ -21,11 +21,9 @@ export default async function DESCalProjectPage() {
 
 
         <main className="project-description-page mb-2">
-
             <div className="hidden md:lg:block">
                 <AnimatedBackground />
             </div>
-
 
             <section className="container mx-auto px-1">
 
@@ -56,7 +54,7 @@ export default async function DESCalProjectPage() {
                         <ProjectDetailSection title={"Features"}>
                             <h4>Major Changes:</h4>
                             <ul>
-                                <li>Fix &quot;All day&quot; view</li>
+                                <li>Implement &quot;All day&quot; event grid view</li>
                                 <li>Fix Overall Layout</li>
                                 <li>Follow design patterns for calendar UI components</li>
                             </ul>
@@ -70,9 +68,6 @@ export default async function DESCalProjectPage() {
                                 height={600}
                                 className="mb-1 border border-gray-200 rounded-lg shadow-md"
                             />
-
-                            
-
 
                             <h4>UI After (Month View):</h4>
                             <Image
@@ -92,7 +87,6 @@ export default async function DESCalProjectPage() {
                                 className="mb-1 border border-gray-200 rounded-lg shadow-md"
                             />
                         </ProjectDetailSection>
-
 
                         {/* Results */}
                         <ProjectDetailSection title={'Results'}>

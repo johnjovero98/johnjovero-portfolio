@@ -18,7 +18,7 @@ export default function Home() {
 
 
       <main>
-        <div className="mb-1 bg-linear-to-b from-blue-100 to-white shadow">
+        <div className="mb-1 bg-linear-to-b from-blue-100 to-transparent shadow"> 
           <HeroBanner />
         </div>
 
