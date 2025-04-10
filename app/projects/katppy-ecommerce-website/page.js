@@ -52,7 +52,7 @@ export default async function DESCalProjectPage() {
 
                         <ProjectDetailSection title={"Goals"}>
                             <p><strong>Role:</strong> Project Leader, Developer </p>
-                            <p>I was assigned, along with other 2 members, to build this website as a part of our capstone project under NAIT's Digital Media & I.T. program.</p>
+                            <p>I was assigned, along with other 2 members, to build this website as a part of our capstone project under NAIT&apos;s Digital Media & I.T. program.</p>
                             <p>Our client wants to decrease the service cost of running an online shop, so she decides to switch platform— from Etsy to WooCommerce.</p>
                             <p>The goal of the project was to create a custom, visually appealing, and user-friendly WooCommerce store tailored to Katppy’s niche audience such as DIY crafters and collectors.</p>
 
@@ -108,7 +108,7 @@ export default async function DESCalProjectPage() {
 
 
                         <ProjectDetailSection title={"Preview"}>
-                            <p>The shop is not live in public since we&apos;re still testing and migrating some products, so here's some screenshot of it.</p>
+                            <p>The shop is not live in public since we&apos;re still testing and migrating some products, so here&apos;s some screenshot of it.</p>
 
                             <h4>Shop page preview:</h4>
                             <div className="mb-1 border border-solid border-gray-100 shadow-lg rounded-lg w-fit">
@@ -160,7 +160,7 @@ export default async function DESCalProjectPage() {
                                 <Link className="text-blue-300 hover:underline" target="_blank" href={`https://katppy.com/`}> www.katppy.com</Link>.
                             </p>
 
-                            <p>By building this website, we established a solid e-commerce foundation for the business to grow and scale product offerings. The shop also creates a personalized shopping experience for Katppy's customer.</p>
+                            <p>By building this website, we established a solid e-commerce foundation for the business to grow and scale product offerings. The shop also creates a personalized shopping experience for Katppy&apos;s customer.</p>
                         </ProjectDetailSection>
                     </div>
                 </div>

@@ -246,3 +246,19 @@ header svg.open .line3 {
 .swiper-pagination-bullet-active {
   background-color: #6678E2 !important;
 }
+
+
+/* about page styles */
+
+.about-page .about-img {
+  box-shadow: -20px 10px #6678E2;
+}
+
+
+.about-page h3 {
+  @apply text-h5 font-bold;
+}
+
+.about-page p {
+  @apply mb-1
+}
