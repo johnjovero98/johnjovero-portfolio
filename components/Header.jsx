@@ -1,6 +1,7 @@
 'use client'
 
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 
@@ -66,7 +67,7 @@ export default function Header() {
                             {/* social media links */}
                             <ul className="flex gap-1 px-1 pb-1 items-center">
                                 <li>
-                                    <a href="">
+                                    <Link href="https://www.linkedin.com/in/john-jovero/" target="_blank" >
                                         <Image
                                             src={"/img/linkedin.svg"}
                                             alt="Linkedin"
@@ -74,11 +75,11 @@ export default function Header() {
                                             height={30}
                                             className="min-w-[30px] min-h-[30px]"
                                         />
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a href="">
+                                    <Link href="https://github.com/johnjovero98" target="_blank">
                                         <Image
                                             src={"/img/github.svg"}
                                             alt="GitHub"
@@ -86,7 +87,7 @@ export default function Header() {
                                             height={30}
                                             className="min-w-[30px] min-h-[30px]"
                                         />
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>
@@ -115,7 +116,7 @@ export default function Header() {
                             {/* social media links */}
                             <ul className="flex gap-1 ">
                                 <li>
-                                    <a href="">
+                                    <Link href="https://www.linkedin.com/in/john-jovero/" target="_blank" >
                                         <Image
                                             src={"/img/linkedin.svg"}
                                             alt="Linkedin"
@@ -123,11 +124,11 @@ export default function Header() {
                                             height={30}
                                             className="min-w-[30px] min-h-[30px]"
                                         />
-                                    </a>
+                                    </Link>
                                 </li>
 
                                 <li>
-                                    <a href="">
+                                    <Link href="https://github.com/johnjovero98" target="_blank">
                                         <Image
                                             src={"/img/github.svg"}
                                             alt="GitHub"
@@ -135,7 +136,7 @@ export default function Header() {
                                             height={30}
                                             className="min-w-[30px] min-h-[30px]"
                                         />
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>
