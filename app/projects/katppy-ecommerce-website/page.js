@@ -86,6 +86,13 @@ export default async function DESCalProjectPage() {
                                 <li>Implemented AJAX filter and search bar to improve online shopping experience</li>
                             </ul>
 
+                            <h4>Accessibility (WCAG) Enhancements</h4>
+                            <ul>
+                                <li>Followed WCAG standards by adding aria labels to improve screen reader support</li>
+                                <li>Used semantic HTML and accessible navigation patterns</li>
+                                <li>Applied accessible typography guidelines, including proper contrast ratios, scalable font sizes, and readable typefaces</li>
+                            </ul>
+
                             <h4>Mailchimp Integration</h4>
                             <ul>
                                 <li>Integrated Mailchimp for email marketing and customer retention</li>
