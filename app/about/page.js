@@ -9,7 +9,7 @@ export default function AboutPage() {
         <Header />
 
         <main className="about-page">
-            <div className="container mx-auto p-1 min-h-[100dvh]">
+            <div className="container mx-auto max-w-5xl p-1 min-h-[100dvh]">
                 <div className="hidden md:lg:block">
                     <AnimatedBackground />
                 </div>
@@ -32,17 +32,28 @@ export default function AboutPage() {
                     {/* about page description */}
                     <section className="lg:w-[75%]">
                         <h3>How I got into web dev</h3>
-                        <p>I’ve always been tech-savvy and love working with computers since I was a kid. My first web development experience was editing the HTML and CSS code of my Tumblr and MySpace themes. I enjoyed making my profile look aesthetically pleasing.  I even copy and paste code to put a music player on it! However, it was just a hobby at that time.</p>
-                        <p>Initially, I chose to pursue a degree in business (majoring in accounting) at the University of Alberta.  Long story short… As of the moment, I mostly use the knowledge I gained from pursuing BCom to do my personal taxes. To be honest, I was not fully engaged with accounting and can’t see myself having a long-term career with it.</p>
+                        <p>I’ve always been tech-savvy and have loved working with computers since I was a kid. My first web development experience was editing the HTML and CSS code of my Tumblr and MySpace themes. I enjoyed making my profile look aesthetically pleasing. I even copied and pasted code to put a music player on it! However, it was just a hobby at that time.</p>
+
+
+                        <p>Initially, I chose to pursue a degree in accounting at the University of Alberta. Long story short…  I mostly use the knowledge I gained from it to do my taxes. To be honest, I was not fully engaged with accounting and can’t see myself having a long-term career in it.</p>
 
                         <h3>FAQ: At what moment did you make the path switch?</h3>
-                        <p>3rd year into my studies, I declared Management Information System as a minor. It sparked my interest in technology again. I learned the fundpamentals of programming, databasing, system analysis and design, analytics, and more “nerdy tech stuff.” I was particularly fond of the E-Commerce course I took, where I designed wireframes and built a website using WordPress.</p>
+
+
+                        <p>3rd year into my studies, I declared Management Information Systems as a minor. It sparked my interest in technology again. I learned the fundamentals of programming, databasing, system analysis and design, analytics, and more “nerdy tech stuff.” I was particularly fond of the E-Commerce course I took, where I designed wireframes and built a website using WordPress.</p>
+
                         <p>(Random fact: I started programming formally with Python. I plan to learn Django at some point.)</p>
-                        <p>Shortly after graduating, I took a risk by going back to school again. I chose to study at NAIT, taking their DMIT-Web Development and Design program with hopes of expanding my knowledge in web development technologies. It’s been a great academic journey from there!</p>
-                        <p>I’m fully engaged with my web development courses. I got to design and build some awesome websites using modern technologies like NEXTjs. Recently, I started my DMIT Capstone Project, where I gain practical experiences by working with industry clients and applying what I learned in classroom into practice.</p>
+
+                        <p>Shortly after graduating, I took a risk by going back to school again. I chose to study at NAIT, taking their DMIT-Web Development and Design program with the hopes of expanding my knowledge in web development technologies. It’s been a great academic journey from there!</p>
+
+
+                        <p>I am fully engaged in my web development courses, where I have had the opportunity to design and build websites using modern technologies like Next.js. Recently, I successfully completed my DMIT Capstone Project, which allowed me to gain practical experience by working with industry clients and applying what I learned in the classroom to real-world scenarios.</p>
+
                         <p>Now, I find web development is the right career path for me because I get to be creative and technical at the same time.</p>
 
                         <h3 className="text-balance">Now let’s briefly switch gears into my personal life and hobbies</h3>
+
+
                         <p>Outside smashing my keyboard while debugging JavaScript codes, I love to go on adventures by travelling, hiking, kayaking, and aurora chasing. I also like staying active by working out at the gym and taking a stroll in the river valley. It’s a good way to keep my back healthy, given how this career path calls for prolonged sitting.</p>
                         
                         <p className="font-bold">Some cool pics I took on my adventures:</p>
@@ -58,6 +69,7 @@ export default function AboutPage() {
                 </div>
             </div>
         </main>
+        
 
         <Footer />
     </>
