@@ -28,11 +28,9 @@ export default async function DESCalProjectPage() {
             </div>
 
             <section className="container mx-auto px-1">
-                <h2 className="text-h4 lg:text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">Katppy E-Commerce Website (Ongoing)</h2>
+                <h2 className="text-h4 lg:text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">Katppy E-Commerce Website</h2>
 
                 <div className="project-content">
-
-
                     <div className="project-feat-img-container">
                         <ProjectDetailFeatImg
                             imgSrc={'/projects-img/project-img-katppy.png'}
@@ -62,13 +60,12 @@ export default async function DESCalProjectPage() {
 
 
                         <ProjectDetailSection title={"Development"}>
-                            <p>My role as a lead developer is to ensure the technical requirement are met, while maintaining best practices. Such actions include developing a custom WordPress theme and WooCommerce features and integrating third-party services (email, payments, marketing).
-
+                            <p>My role as a lead developer is to ensure the technical requirement are met, while maintaining best practices. Such actions include developing a custom WordPress (with WooCommerce) support and integrating third-party services ( for email, payments, marketing).
                             </p>
 
                             <p>As the project leader, I make sure all deliverables are finishined in a timely manner.</p>
 
-                            <p>I also collaborated with my design team and client to align decisions with Katppy’s brading and aesthetic.</p>
+                            <p>I also collaborated with my design team and client to align decisions with Katppy’s branding and aesthetic.</p>
 
                             <h4>Custom Theme Development</h4>
                             <ul>
@@ -78,7 +75,7 @@ export default async function DESCalProjectPage() {
 
                             <h4>TailwindCSS Integration</h4>
                             <ul>
-                                <li>Utilized TailwindCSS into the WordPress theme to rapidly build a clean and modern-looking user interfaces</li>
+                                <li>Utilized Tailwind CSS into the WordPress theme to rapidly build a clean and modern-looking user interfaces</li>
                             </ul>
 
                             <h4>WooCommerce Customization</h4>
@@ -115,7 +112,7 @@ export default async function DESCalProjectPage() {
 
 
                         <ProjectDetailSection title={"Preview"}>
-                            <p>The shop is not live in public since we&apos;re still testing and migrating some products, so here&apos;s some screenshot of it.</p>
+                            <p>The shop is not live in public since our client is still organizing some products, so here are some screenshots of it.</p>
 
                             <h4>Shop page preview:</h4>
                             <div className="mb-1 border border-solid border-gray-100 shadow-lg rounded-lg w-fit">
@@ -157,17 +154,10 @@ export default async function DESCalProjectPage() {
 
                                 />
                             </div>
-
-
-
                         </ProjectDetailSection>
 
                         <ProjectDetailSection title={"Results"}>
-                            <p>Our team are currently migrating the rest of the content into the production website:
-                                <Link className="text-blue-300 hover:underline" target="_blank" href={`https://katppy.com/`}> www.katppy.com</Link>.
-                            </p>
-
-                            <p>By building this website, we established a solid e-commerce foundation for the business to grow and scale product offerings. The shop also creates a personalized shopping experience for Katppy&apos;s customer.</p>
+                            <p>By building this website, we established a solid e-commerce foundation for the business to grow and scale product offerings. The shop also creates a personalized shopping experience for Katppy&apos;s customers.</p>
                         </ProjectDetailSection>
                     </div>
                 </div>

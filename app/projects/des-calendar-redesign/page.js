@@ -19,17 +19,13 @@ export default async function DESCalProjectPage() {
 
         <Header />
 
-
         <main className="project-description-page mb-2">
             <div className="hidden md:lg:block">
                 <AnimatedBackground />
             </div>
 
             <section className="container mx-auto px-1">
-
                 <h2 className="text-h4 lg:text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">DES Calendar UI Redesign</h2>
-
-
                 <div className="project-content">
                     <div className="project-feat-img-container">
                         <ProjectDetailFeatImg
@@ -45,7 +41,6 @@ export default async function DESCalProjectPage() {
                     <div className="project-details-section">
                         {/* Task */}
                         <ProjectDetailSection title={"Task"}>
-                            <p>This is the first feature I updated that got into production. By the time I successfully completed this project, I felt confident and sure of myself that I had chosen the right path to become a web developer!</p>
                             <p>This UI redesign project is an open-source contribution for the Dev Edmonton Society website. Although the past calendar design is functional, my goal for this project is to further improve the calendar UI component’s aesthetic and usability.</p>
                         </ProjectDetailSection>
 
@@ -96,7 +91,6 @@ export default async function DESCalProjectPage() {
                 </div>
             </section>
         </main>
-
         <Footer />
     </>
 }
