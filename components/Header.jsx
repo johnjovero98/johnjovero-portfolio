@@ -10,9 +10,9 @@ export default function Header() {
 
     return (
         <div className="sticky top-0 z-20 shadow-lg bg-white">
-            <header className="relative bg-glass">
+            <header className="relative">
                 <div className="container mx-auto px-1">
-                    <div className="flex justify-between items-center py-1 gap-1">
+                    <div className="flex justify-between items-center  gap-1">
                         {/* logo */}
                         <h1>
                             <a href="/">
@@ -21,7 +21,7 @@ export default function Header() {
                                     alt="John Jovero"
                                     width={111}
                                     height={90}
-                                    className="min-w-[80px]"
+                                    className="min-w-[80px] p-[.75rem]"
                                 />
                             </a>
                         </h1>
