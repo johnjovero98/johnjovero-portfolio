@@ -1,5 +1,6 @@
 import { Nunito } from "next/font/google";
 import { Montserrat } from "next/font/google";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 import "./globals.css";
 
@@ -22,13 +23,14 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-    return (
-      <html lang="en">
-        <body
-          className={montserrat.className}
-        >
-          {children}
-        </body>
-      </html>
-    );
-  }
+  return (
+    <html lang="en">
+      <body
+        className={montserrat.className}
+      >
+        <GoogleAnalytics />
+        {children}
+      </body>
+    </html>
+  );
+}
