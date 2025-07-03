@@ -9,22 +9,22 @@ export default function AboutPage() {
         <Header />
 
         <main className="about-page">
-            <div className="container mx-auto max-w-5xl p-1 min-h-[100dvh]">
+            <div className="container max-w-5xl mx-auto p-1 min-h-[100dvh]">
                 <div className="hidden md:lg:block">
                     <AnimatedBackground />
                 </div>
 
-                <h2 className="text-h4 lg:text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">Get to know me a bit more</h2>
+                <h2 className="text-h4 md:text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">Get to know me a bit more</h2>
 
                 <div className="flex gap-2 flex-col lg:flex-row items-start">
                     {/* about page img */}
-                    <div className="lg:w-[25%] lg:sticky lg:top-[10.5rem]">
+                    <div className="w-full lg:w-1/4 lg:sticky lg:top-[10.5rem] flex justify-center">
                         <Image
                             src={'/img/about-page-img.jpg'}
-                            width={1000}
-                            height={1000}
-                            className="about-img shadow-blue-300 w-full object-cover rounded-full"
-                            alt="Picuture of John working from home"
+                            width={300}
+                            height={300}
+                            className="about-img shadow-blue-300 object-cover rounded-full"
+                            alt="Picuture of John hanging around the River Thames in London"
                         />
                     </div>
 
