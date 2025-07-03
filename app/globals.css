@@ -256,7 +256,7 @@ header svg.open .line3 {
 
 
 .about-page h3 {
-  @apply text-h5 font-bold;
+  @apply text-h5 lg:text-h4 font-bold mb-1;
 }
 
 .about-page p {

@@ -51,9 +51,7 @@ export default function AboutPage() {
 
                         <p>Now, I find web development is the right career path for me because I get to be creative and technical at the same time.</p>
 
-                        <h3 className="text-balance">Now let’s briefly switch gears into my personal life and hobbies</h3>
-
-
+                        <h3>Now let’s briefly switch gears into my personal life and hobbies</h3>
                         <p>Outside smashing my keyboard while debugging JavaScript codes, I love to go on adventures by travelling, hiking, kayaking, and aurora chasing. I also like staying active by working out at the gym and taking a stroll in the river valley. It’s a good way to keep my back healthy, given how this career path calls for prolonged sitting.</p>
                         
                         <p className="font-bold">Some cool pics I took on my adventures:</p>

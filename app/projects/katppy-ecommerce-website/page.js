@@ -114,6 +114,13 @@ export default async function DESCalProjectPage() {
                         <ProjectDetailSection title={"Preview"}>
                             <p>The shop is not live in public since our client is still organizing some products, so here are some screenshots of it.</p>
 
+
+
+                            <Link href="https://katppy.com/shop/?woo-share=EMDRTvvmS0PWiY5Y4App1ryGIEhxkOsv" target="_blank" className="text-blue-300 hover:underline  font-bold mb-1 inline-block">
+                                Shop Preview Link
+                            </Link>
+
+
                             <h4>Shop page preview:</h4>
                             <div className="mb-1 border border-solid border-gray-100 shadow-lg rounded-lg w-fit">
                                 <Image
