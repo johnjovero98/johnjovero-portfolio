@@ -155,10 +155,9 @@ export default async function DESCalProjectPage() {
                                 <Image
                                     src={"/projects-img/order-email-sample.png"}
                                     alt="Email sample for order confirmation"
-                                    width={600}
-                                    height={600}
+                                    width={1000}
+                                    height={1000}
                                     className="w-full max-w-[600px] rounded-lg"
-
                                 />
                             </div>
                         </ProjectDetailSection>
