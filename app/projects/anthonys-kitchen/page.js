@@ -71,7 +71,7 @@ export default async function DESCalProjectPage() {
 
                         <ProjectDetailSection title={"Branding"}>
 
-                            <p>My branding goal for Anthony&apos;s Kitchen is to evoke a sense of as warmth and approachability. Hence, I opted to use a friendly second-person voice for the heading texts as if Anthony itself is talking to the users. </p>
+                            <p>My branding goal for Anthony&apos;s Kitchen is to evoke a sense of warmth, approachability, and trust. Hence, I opted to use a friendly second-person voice for the heading texts as if Anthony itself is talking to the users. </p>
 
                             <h4>Logo Story</h4>
                             <p>The logo features the brand name “anthony’s kitchen” in a cursive font like it was handwritten. It evokes a sense of &quot;personal touch&quot;, which reflects the overall purpose of the website— a platform where people can share their personal recipes. Behind the text is a chef’s hat adding a playful visual cue that signals that the website is all about food.</p>
