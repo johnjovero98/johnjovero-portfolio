@@ -17,11 +17,10 @@ export default function ProjectDetailFeatImg({ imgSrc, imgAlt, projectLink, proj
             />
         </div>
         <div className="technologies">
-            <h3 className="font-bold leading-[3rem]">Technologies Used:</h3>
             <ProjectTechList projectTechList={projectData.projectTech} />
 
             <Link href={projectLink} target="_blank" className="cta-button mt-1">
-                Visit Website
+                See this project in action
             </Link>
         </div>
 

@@ -5,7 +5,7 @@ import ProjectTechList from "./ProjectTechList"
 
 
 export default function ProjectList({ ProjectList }) {
-    return <ul className="grid md:grid-cols-2 lg:grid-cols-3 gap-2 ">
+    return <ul className="grid md:grid-cols-2 gap-3">
 
         {
             ProjectList.map((project) => {
@@ -22,7 +22,7 @@ export default function ProjectList({ ProjectList }) {
                             />
                         </div>
 
-                        <h3 className="font-bold text-h6 mb-[10px]">{project.projectTitle}</h3>
+                        <h3 className="font-bold text-h6 lg:text-h5 mb-[10px]">{project.projectTitle}</h3>
 
                         <ProjectTechList projectTechList={project.projectTech} />
                     </Link>

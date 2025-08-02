@@ -25,7 +25,7 @@ export default async function DESCalProjectPage() {
             </div>
 
             <section className="container mx-auto px-1">
-                <h2 className="text-h4 lg:text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">DES Calendar UI Redesign</h2>
+                <h2 className="text-h4 lg:text-h2 font-bold text-balance mt-2 mb-2 text-blue-300 text-center">{project.projectTitle}</h2>
                 <div className="project-content">
                     <div className="project-feat-img-container">
                         <ProjectDetailFeatImg
