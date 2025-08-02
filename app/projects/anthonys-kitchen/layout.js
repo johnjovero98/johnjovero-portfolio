@@ -14,8 +14,8 @@ const montserrat = Montserrat({
 
 
 export const metadata = {
-  title: "John Jovero Portfolio | Katppy E-Commerce Website",
-  description: "Project details for Katppy E-Commerce Website",
+  title: "John Jovero Portfolio | Anthony's Kitchen Design Challenge ",
+  description: "Project details for Anthony's Kitchen Design Challenge",
 };
 
 export default function RootLayout({ children }) {
