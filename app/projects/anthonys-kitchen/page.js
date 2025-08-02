@@ -44,13 +44,13 @@ export default async function DESCalProjectPage() {
                     {/* project Descriptions */}
                     <div className="project-details-section">
                         <ProjectDetailSection title={"Overview"}>
-                            <p>This design challenge is part of my Web Design and Usability course from NAIT's
+                            <p>This design challenge is part of my Web Design and Usability course from NAIT&apos;s
                                 (former) Digital Media and I.T. program. </p>
 
                         </ProjectDetailSection>
 
                         <ProjectDetailSection title={"Challenge Statement"}>
-                            <p className="italic text-h6 mt-1">"Anthony would like you to design a landing page that would help <strong>engage</strong> visitors enough to regularly use his website for their recipe needs."</p>
+                            <p className="italic text-h6 mt-1">&quot;Anthony would like you to design a landing page that would help <strong>engage</strong> visitors enough to regularly use his website for their recipe needs.&quot;</p>
 
                         </ProjectDetailSection>
 
@@ -71,10 +71,10 @@ export default async function DESCalProjectPage() {
 
                         <ProjectDetailSection title={"Branding"}>
 
-                            <p>My goal for the branding for Anthony's Kitchen to evoke a sense of as warmth and approachability. Hence, I opted to use a friendly "second-person voice" for the heading texts as if Anthony itself is talking to the users. </p>
+                            <p>My goal for the branding for Anthony&apos;s Kitchen to evoke a sense of as warmth and approachability. Hence, I opted to use a friendly second-person voice for the heading texts as if Anthony itself is talking to the users. </p>
 
                             <h4>Logo Story</h4>
-                            <p>The logo features the brand name “anthony’s kitchen” in a cursive font like it was handwritten. It evokes a sense of "personal touch", which reflects the overall purpose of the website— a platform where people can share their personal recipes. Behind the text is a chef’s hat adding a playful visual cue that signals that the website is all about food.</p>
+                            <p>The logo features the brand name “anthony’s kitchen” in a cursive font like it was handwritten. It evokes a sense of &quot;personal touch&quot;, which reflects the overall purpose of the website— a platform where people can share their personal recipes. Behind the text is a chef’s hat adding a playful visual cue that signals that the website is all about food.</p>
 
 
                         </ProjectDetailSection>
@@ -99,7 +99,7 @@ export default async function DESCalProjectPage() {
                             <p>Long story short, I got an A for this project and compliments on the attention to detail 😎</p>
 
                             <h4>Here is a preview of the desktop wireframe</h4>
-                            <p>Yes! It's also mobile friendly. <a className="text-blue-300 hover:underline" target="_blank" href='https://www.figma.com/design/fayZ19yd1NjTcOYgJ3muUs/anthonys-kitchen-wireframe?node-id=0-1&t=ncYrTT0i7GousQar-1'>
+                            <p>Yes! It is also mobile friendly. <a className="text-blue-300 hover:underline" target="_blank" href='https://www.figma.com/design/fayZ19yd1NjTcOYgJ3muUs/anthonys-kitchen-wireframe?node-id=0-1&t=ncYrTT0i7GousQar-1'>
                                 Full project here
                             </a></p>
 
