@@ -34,7 +34,7 @@ export default async function DESCalProjectPage() {
                     <div className="project-feat-img-container">
                         <ProjectDetailFeatImg
                             imgSrc={'/projects-img/project-img-anthonys.png'}
-                            imgAlt={'Katppy Project Feature Image'}
+                            imgAlt={"Anthony's Kitchen Project Feature Image"}
                             projectLink={'https://www.figma.com/design/fayZ19yd1NjTcOYgJ3muUs/anthonys-kitchen-wireframe?node-id=0-1&t=ncYrTT0i7GousQar-1'}
                             projectData={project}
                         />
@@ -83,6 +83,17 @@ export default async function DESCalProjectPage() {
                             <section>
                                 <p>For the visual communication, I used warm pastel colors for a minimal and clean look. I also incorporated a lot of organic shapes to bring softness to the UI.</p>
 
+                                <div className="mb-1 border border-solid border-gray-100 shadow-lg rounded-lg w-fit" >
+                                    <Image
+                                        src={"/projects-img/anthonys-kitchen-styleguide.png"}
+                                        alt="Anthony's Kitchen Style Guide"
+                                        width={1000}
+                                        height={1000}
+                                        className="w-full max-w-[600px] rounded-lg"
+                                    />
+
+                                </div>
+
                                 <p>To increase conversion and enhance user experience, I included call-to-actions such as... </p>
                                 <ol className="list-decimal pl-1">
                                     <li>Encouraging users to view the featured recipes of the week</li>
@@ -107,7 +118,7 @@ export default async function DESCalProjectPage() {
                             <div className="mb-1 border border-solid border-gray-100 shadow-lg rounded-lg w-fit" >
                                 <Image
                                     src={"/projects-img/anthonys-kitchen-desktop-wireframe.png"}
-                                    alt="Email sample for order confirmation"
+                                    alt="Anthony's Kitchen dekstop wireframe"
                                     width={1000}
                                     height={1000}
                                     className="w-full max-w-[600px] rounded-lg"
